@@ -8,9 +8,9 @@
     --rgbBackground: 40, 42, 54;
     --rgbForeground: 248, 248, 242;
   
-    --title: 'Abril Text';
-    --body: 'Source Sans Pro';
-    --mono: 'Fira Code';
+    --sansSerif: 'font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif';
+    --serif: 'Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol';
+    --mono: 'Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace';
   
     --alpha: 0.7;
 }
@@ -20,3 +20,17 @@
     padding: 0;
 }
 
+body {
+    background: rgb(var(--rgbBackground));
+    color: rgb(var(--rgbForeground));
+    font-family: var(--sansSerif);
+    font-weight: 300;
+}
+
+.title {
+    font-size: 72px;
+    text-align: center;
+    font-family: var(--serif);
+    font-weight: 700;
+    height: 100px;
+}
