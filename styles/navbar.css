@@ -1,0 +1,6 @@
+.navbar {
+    background-color: rgb(var(--rgbBackground));
+    width: 5rem;
+    height: 100vh;
+    position: fixed;
+}
