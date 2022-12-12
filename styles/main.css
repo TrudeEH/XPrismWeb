@@ -62,8 +62,17 @@ body {
     fill: #383A59;
 }
 
-main {
+header {
     margin-bottom: 0;
     padding-bottom: 0;
     background-color: #383A59;
+}
+
+main {
+    aspect-ratio: 900/600;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('/images/bot-waves-pc.svg');
 }
