@@ -48,7 +48,6 @@ body {
 .custom-shape-divider-top-1670842612 {
     margin-top: 0;
     padding-top: 0;
-    margin-left: 5rem;
     overflow: hidden;
     line-height: 0;
 }
@@ -70,6 +69,32 @@ header {
 
 main {
     margin-left: 5rem;
+    margin-right: 1rem;
+}
+
+.spacer {
+    height: 100px;
+}
+
+.custom-shape-divider-bottom-1670849682 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1670849682 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 72px;
+}
+
+.custom-shape-divider-bottom-1670849682 .shape-fill {
+    fill: #FF79C6;
 }
 
 /* width */

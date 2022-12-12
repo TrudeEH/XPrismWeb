@@ -1,7 +1,6 @@
 .navbar {
     position: fixed;
-    background-color: rgb(var(--rgbPink));
-    transition: width 600ms ease;
+    background-color: #22242e;
     overflow: none;
     z-index: 9999;
   }
@@ -15,8 +14,6 @@
     align-items: center;
     height: 100%;
   }
-  
-
   
   .nav-link {
     display: flex;
@@ -34,25 +31,20 @@
     color: var(--text-secondary);
   }
   
-  
   .nav-link svg {
-    width: 2rem;
-    min-width: 2rem;
+    width: 1.7rem;
+    min-width: 1.7rem;
     margin: 0 1.5rem;
   }
-  
-
-  
   
   /* Small screens */
   @media only screen and (max-width: 600px) {
     .navbar {
       bottom: 0;
       width: 100vw;
-      height: 5rem;
+      height: 4.2rem;
     }
 
-  
     .navbar-nav {
       flex-direction: row;
     }
@@ -70,7 +62,7 @@
   @media only screen and (min-width: 600px) {
     .navbar {
       top: 0;
-      width: 5rem;
+      width: 3.5rem;
       height: 100vh;
     }
   
