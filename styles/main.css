@@ -28,6 +28,8 @@ body {
 }
 
 .title {
+    margin-top: 0;
+    margin-bottom: 0.4rem;
     font-size: 72px;
     text-align: center;
     font-family: var(--serif);
@@ -63,8 +65,6 @@ body {
 }
 
 header {
-    margin-bottom: 0;
-    padding-bottom: 0;
     background-color: #383A59;
 }
 
