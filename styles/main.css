@@ -75,6 +75,7 @@ main {
     background-position: center;
     background-size: cover;
     background-image: url('/images/bot-waves-pc.svg');
+    height: max-content;
 }
 
 /* width */
