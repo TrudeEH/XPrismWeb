@@ -70,12 +70,6 @@ header {
 
 main {
     margin-left: 5rem;
-    aspect-ratio: 900/600;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-image: url('/images/bot-waves-pc.svg');
-    height: max-content;
 }
 
 /* width */
