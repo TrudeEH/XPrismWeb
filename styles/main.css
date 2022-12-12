@@ -42,3 +42,24 @@ body {
     font-weight: 400;
     min-height: 36px;
 }
+
+.custom-shape-divider-top-1670841811 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1670841811 svg {
+    position: relative;
+    display: block;
+    width: calc(145% + 1.3px);
+    height: 67px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1670841811 .shape-fill {
+    fill: #BD93F9;
+}
