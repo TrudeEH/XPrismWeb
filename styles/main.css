@@ -33,33 +33,37 @@ body {
     font-family: var(--serif);
     font-weight: 700;
     height: 100px;
+    color: rgb(var(--rgbPink));
 }
 
 .subtitle {
     text-align: center;
-    margin: 0 0 10px;
     font-size: 28px;
     font-weight: 400;
     min-height: 36px;
 }
 
-.custom-shape-divider-top-1670841811 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+.custom-shape-divider-top-1670842612 {
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 5rem;
     overflow: hidden;
     line-height: 0;
 }
 
-.custom-shape-divider-top-1670841811 svg {
+.custom-shape-divider-top-1670842612 svg {
     position: relative;
     display: block;
-    width: calc(145% + 1.3px);
+    width: calc(135% + 1.3px);
     height: 67px;
-    transform: rotateY(180deg);
 }
 
-.custom-shape-divider-top-1670841811 .shape-fill {
-    fill: #BD93F9;
+.custom-shape-divider-top-1670842612 .shape-fill {
+    fill: #383A59;
+}
+
+main {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background-color: #383A59;
 }
