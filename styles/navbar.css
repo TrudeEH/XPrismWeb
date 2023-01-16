@@ -1,66 +1,66 @@
 .navbar {
-    position: fixed;
-    background-color: #22242e;
-    z-index: 9999;
-  }
+  position: fixed;
+  background-color: #22242e;
+  z-index: 9999;
+}
   
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  height: 100%;
+}
+
+.nav-selected {
+  color: rgb(197, 155, 255);
+}
+  
+.nav-link {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  color: var(--text-primary);
+  text-decoration: none;
+  opacity: 0.6;
+  transition: transform 0.3s ease;
+}
+
+.nav-link:hover {
+  color: rgb(189, 147, 249);
+  transition: transform 0.3s ease;
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.nav-link svg {
+  width: 1.7rem;
+  margin: 0 1rem;
+}
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+  .navbar {
+    bottom: 0;
+    width: 100vw;
+    height: 4.2rem;
+  }
+
   .navbar-nav {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:center;
-    height: 100%;
+    flex-direction: row;
   }
 
-  .nav-selected {
-    color: rgb(197, 155, 255);
+  main {
+    margin: 0.5rem;
   }
-  
-  .nav-link {
-    display: flex;
-    align-items: center;
-    height: 5rem;
-    color: var(--text-primary);
-    text-decoration: none;
-    opacity: 0.6;
-    transition: transform 0.3s ease;
-  }
+}
 
-  .nav-link:hover {
-    color: rgb(189, 147, 249);
-    transition: transform 0.3s ease;
-    transform: scale(1.2);
-    opacity: 1;
+/* Large screens */
+@media only screen and (min-width: 600px) {
+  .navbar {
+    width: 3.5rem;
+    height: 100vh;
   }
-  
-  .nav-link svg {
-    width: 1.7rem;
-    margin: 0 1rem;
-  }
-  
-  /* Small screens */
-  @media only screen and (max-width: 600px) {
-    .navbar {
-      bottom: 0;
-      width: 100vw;
-      height: 4.2rem;
-    }
+}
 
-    .navbar-nav {
-      flex-direction: row;
-    }
-  
-    main {
-      margin: 0.5rem;
-    }
-  }
-  
-  /* Large screens */
-  @media only screen and (min-width: 600px) {
-    .navbar {
-      width: 3.5rem;
-      height: 100vh;
-    }
-  }
-  
