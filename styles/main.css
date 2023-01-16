@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Rubik:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
 :root {
     --rgbCyan: 139, 233, 253;
     --rgbGreen: 80, 250, 123;
@@ -8,9 +10,8 @@
     --rgbBackground: 40, 42, 54;
     --rgbForeground: 248, 248, 242;
   
-    --sansSerif: 'font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif';
-    --serif: 'Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol';
-    --mono: 'Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace';
+    --sansSerif: 'Rubik', sans-serif;
+    --mono: 'Fira Code', monospace;
   
     --alpha: 0.7;
 }
@@ -24,7 +25,6 @@ body {
     background: rgb(var(--rgbBackground));
     color: rgb(var(--rgbForeground));
     font-family: var(--sansSerif);
-    font-weight: 300;
 }
 
 .title {
@@ -32,7 +32,7 @@ body {
     margin-bottom: 0.4rem;
     font-size: 72px;
     text-align: center;
-    font-family: var(--serif);
+    font-family: var(--mono);
     font-weight: 700;
     height: 100px;
     color: rgb(var(--rgbPink));
@@ -43,6 +43,15 @@ body {
     font-size: 28px;
     font-weight: 400;
     min-height: 36px;
+    font-family: var(--mono);
+}
+
+h3 {
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: var(--mono);
+    color: rgb(var(--rgbPink));
 }
 
 .custom-shape-divider-top-1670842612 {
