@@ -21,6 +21,8 @@
     padding: 0;
 }
 
+
+
 body {
     background: rgb(var(--rgbBackground));
     color: rgb(var(--rgbForeground));
@@ -37,6 +39,8 @@ body {
     height: 100px;
     color: rgb(var(--rgbPink));
     text-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    animation: multiShadowText;
+    animation-duration: 0.35s;
 }
 
 .subtitle {
@@ -56,6 +60,8 @@ h3 {
     font-family: var(--mono);
     color: rgb(var(--rgbPink));
     text-shadow: rgba(240, 46, 170, 0.4) 2px 2px, rgba(240, 46, 170, 0.3) 4px 4px, rgba(240, 46, 170, 0.2) 6px 6px, rgba(240, 46, 170, 0.1) 8px 8px, rgba(240, 46, 170, 0.05) 10px 10px;
+    animation: multiShadowTextSmall;
+    animation-duration: 0.35s;
 }
 
 .custom-shape-divider-top-1670842612 {
@@ -99,6 +105,55 @@ main {
     width: 80%;
     border: #FF79C6 2px solid;
     box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    animation: revHoverSplash;
+    animation-duration: 1s;
+}
+
+.image-mid:hover {
+    animation: hoverSplash;
+    animation-duration: 1s;
+    box-shadow: rgba(240, 46, 170, 0.4) 0 0 0 5px;
+}
+
+@keyframes hoverSplash {
+    0%   {box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;}
+    50%  {box-shadow: none;}
+    75%  {box-shadow: rgba(240, 46, 170, 0.4) 0 0 0 7px;}
+    100%  {box-shadow: rgba(240, 46, 170, 0.4) 0 0 0 5px;}
+}
+
+@keyframes revHoverSplash {
+    0%   {box-shadow: rgba(240, 46, 170, 0.4) 0 0 0 5px;}
+    50%  {box-shadow: rgba(240, 46, 170, 0.4) 0 0 0 7px;}
+    75%  {box-shadow: none;}
+    100%  {box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;}
+}
+
+@keyframes multiShadowBox {
+    0%  {box-shadow: none;}
+    20%  {box-shadow: rgba(240, 46, 170, 0.4) 5px 5px;}
+    40%  {box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px;}
+    60%  {box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px;}
+    80%  {box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px;}
+    100%  {box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;}
+}
+
+@keyframes multiShadowText {
+    0%  {box-shadow: none;}
+    20%  {text-shadow: rgba(240, 46, 170, 0.4) 5px 5px;}
+    40%  {text-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px;}
+    60%  {text-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px;}
+    80%  {text-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px;}
+    100%  {text-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;}
+}
+
+@keyframes multiShadowTextSmall {
+    0%  {box-shadow: none;}
+    20%  {text-shadow: rgba(240, 46, 170, 0.4) 2px 2px;}
+    40%  {text-shadow: rgba(240, 46, 170, 0.4) 2px 2px, rgba(240, 46, 170, 0.3) 4px 4px;}
+    60%  {text-shadow: rgba(240, 46, 170, 0.4) 2px 2px, rgba(240, 46, 170, 0.3) 4px 4px, rgba(240, 46, 170, 0.2) 6px 6px;}
+    80%  {text-shadow: rgba(240, 46, 170, 0.4) 2px 2px, rgba(240, 46, 170, 0.3) 4px 4px, rgba(240, 46, 170, 0.2) 6px 6px, rgba(240, 46, 170, 0.1) 8px 8px;}
+    100%  {text-shadow: rgba(240, 46, 170, 0.4) 2px 2px, rgba(240, 46, 170, 0.3) 4px 4px, rgba(240, 46, 170, 0.2) 6px 6px, rgba(240, 46, 170, 0.1) 8px 8px, rgba(240, 46, 170, 0.05) 10px 10px;}
 }
 
 .custom-shape-divider-bottom-1670849682 {
