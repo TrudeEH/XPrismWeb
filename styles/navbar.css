@@ -12,6 +12,10 @@
     justify-content:center;
     height: 100%;
   }
+
+  .nav-selected {
+    color: rgb(197, 155, 255);
+  }
   
   .nav-link {
     display: flex;
