@@ -14,7 +14,7 @@
 }
 
 .nav-selected {
-  color: rgb(197, 155, 255);
+  color: #FF79C6;
 }
   
 .nav-link {
@@ -53,6 +53,11 @@
 
   main {
     margin: 0.5rem;
+    margin-bottom: 5rem;
+  }
+
+  .image-mid {
+    border-width: 1px;
   }
 }
 
