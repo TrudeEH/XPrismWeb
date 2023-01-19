@@ -119,6 +119,7 @@ header {
 main {
     margin-left: 5rem;
     margin-right: 1rem;
+    padding-bottom: 2rem;
     overflow: auto;
 }
 
