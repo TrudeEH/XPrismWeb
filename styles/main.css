@@ -137,12 +137,12 @@ main {
     border: #FF79C6 2px solid;
     box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
     animation: revHoverSplash;
-    animation-duration: 1s;
+    animation-duration: .7s;
 }
 
 .image-mid:hover {
     animation: hoverSplash;
-    animation-duration: 1s;
+    animation-duration: .7s;
     box-shadow: rgba(240, 46, 170, 0.4) 0 0 0 5px;
     cursor: zoom-in;
 }
@@ -298,6 +298,11 @@ main {
 .code:hover {
     box-shadow: none;
     transition: .5s;
+}
+
+.grid-wide {
+    grid-column-start: 1 !important;
+    grid-column-end: 3 !important;
 }
 
 /* Small screens */
