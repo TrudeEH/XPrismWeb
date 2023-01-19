@@ -73,6 +73,14 @@ h4 {
     text-shadow: rgba(240, 46, 170, 0.4) 2px 2px;
 }
 
+a {
+    font-style: italic;
+    text-decoration: none;
+    font-family: var(--mono);
+    color: rgb(var(--rgbPink));
+    cursor: pointer;
+}
+
 .custom-shape-divider-top-1670842612 {
     margin-top: 0;
     padding-top: 0;
@@ -190,7 +198,9 @@ main {
 /* Grids */
 .grid-container {
     display: grid;
-    gap: 50px;
+    gap: 2rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
 }
 
 .grid-container div {
