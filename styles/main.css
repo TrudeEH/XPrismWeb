@@ -71,7 +71,8 @@ h4 {
     font-family: var(--mono);
     color: rgb(var(--rgbPink));
     text-shadow: rgba(240, 46, 170, 0.4) 2px 2px;
-    margin: 0.5rem 0;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
 }
 
 .button {
@@ -284,6 +285,18 @@ main {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(var(--rgbPurple));
+}
+
+.code {
+    background-color: black !important;
+    color: white !important;
+    transition: .5s;
+    font-family: var(--mono);
+}
+
+.code:hover {
+    box-shadow: none;
+    transition: .5s;
 }
 
 /* Small screens */
