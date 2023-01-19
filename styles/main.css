@@ -113,6 +113,7 @@ main {
     animation: hoverSplash;
     animation-duration: 1s;
     box-shadow: rgba(240, 46, 170, 0.4) 0 0 0 5px;
+    cursor: url('../images/plus_cursor.png') 25 25, auto;
 }
 
 @keyframes hoverSplash {
