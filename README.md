@@ -1,2 +1,2 @@
-# TruDE-Website
-Website for TruDE
+# XPrism-Website
+Website for XPrism

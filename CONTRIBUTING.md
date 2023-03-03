@@ -1,4 +1,4 @@
-### Welcome to the TruDE Web GitHub repository!
+### Welcome to the XPrism Web GitHub repository!
 
 We are excited to have you contribute to our website and help make it better for our users. Before submitting any contributions, please read through these guidelines to ensure that your contributions align with our goals and standards.
 
@@ -10,4 +10,4 @@ We are excited to have you contribute to our website and help make it better for
 - Testing: Before submitting any contributions, please make sure to test your changes thoroughly. This includes testing on multiple browsers and devices, and ensuring that your changes do not break any existing functionality.
 - Licensing: By submitting contributions to this repository, you are agreeing to release your work under the same license as the rest of the repository.
 
-Thank you for your interest in contributing to TruDE Web! We look forward to reviewing your contributions and working with you to improve our website.
+Thank you for your interest in contributing to XPrism Web! We look forward to reviewing your contributions and working with you to improve our website.
