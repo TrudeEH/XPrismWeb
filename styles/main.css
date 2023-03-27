@@ -1,16 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Rubik:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 
 :root {
-  --rgbCyan: 139, 233, 253;
-  --rgbGreen: 80, 250, 123;
-  --rgbOrange: 255, 184, 108;
-  --rgbPink: 255, 121, 198;
-  --rgbPurple: 189, 147, 249;
-  --rgbYellow: 241, 250, 140;
-  --rgbBackground: 40, 42, 54;
-  --rgbForeground: 248, 248, 242;
+  --color-heading: rgb(255, 121, 198);
+  --color-accent: rgb(189, 147, 249);
+  --color-primary: rgb(40, 42, 54);
+  --color-secondary: rgb(55, 58, 89);
+  --color-text: rgb(248, 248, 242);
 
-  --sansSerif: 'Rubik', sans-serif;
+  --font: 'Rubik', sans-serif;
   --mono: 'Fira Code', monospace;
 
   --alpha: 0.7;
@@ -19,12 +16,13 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  background: rgb(var(--rgbBackground));
-  color: rgb(var(--rgbForeground));
-  font-family: var(--sansSerif);
+  background: var(--color-primary);
+  color: var(--color-text);
+  font-family: var(--font);
 }
 
 h3 {
@@ -32,12 +30,11 @@ h3 {
   font-size: 1.5rem;
   font-weight: 400;
   font-family: var(--mono);
-  color: rgb(var(--rgbPink));
+  color: var(--color-heading);
   text-shadow: rgba(240, 46, 170, 0.4) 2px 2px, rgba(240, 46, 170, 0.3) 4px 4px,
     rgba(240, 46, 170, 0.2) 6px 6px, rgba(240, 46, 170, 0.1) 8px 8px,
     rgba(240, 46, 170, 0.05) 10px 10px;
-  animation: multiShadowTextSmall;
-  animation-duration: 0.35s;
+  animation: multiShadowTextSmall 0.35s;
 }
 
 h4 {
@@ -47,8 +44,7 @@ h4 {
   font-family: var(--mono);
   color: rgb(var(--rgbPink));
   text-shadow: rgba(240, 46, 170, 0.4) 2px 2px;
-  margin-top: 0.5rem;
-  margin-bottom: 1rem;
+  margin: 0.5rem 0 1rem;
 }
 
 .list li {
@@ -57,14 +53,13 @@ h4 {
 }
 
 .title {
-  margin-top: 0;
-  margin-bottom: 0.4rem;
+  margin: 0 0 0.4rem;
   font-size: 72px;
   text-align: center;
   font-family: var(--mono);
   font-weight: 700;
   height: 100px;
-  color: rgb(var(--rgbPink));
+  color: var(--color-heading);
   text-shadow: rgba(240, 46, 170, 0.4) 5px 5px,
     rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px,
     rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
@@ -106,8 +101,7 @@ header {
 }
 
 main {
-  margin-left: 5rem;
-  margin-right: 1rem;
+  margin: 0 5rem 1rem;
   padding-bottom: 2rem;
   overflow: auto;
 }
@@ -417,17 +411,17 @@ main {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: rgb(var(--rgbBackground));
+  background: var(--color-primary);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(var(--rgbPink));
+  background: var(--color-accent);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(var(--rgbPurple));
+  background: var(--color-heading);
 }
 
 /* Media Queries */
