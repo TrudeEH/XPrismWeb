@@ -1,2 +1,2 @@
 # XPrism-Website
-Website for XPrism
+Source code for the XPrism and NeoPrism website.
