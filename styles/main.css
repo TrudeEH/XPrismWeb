@@ -408,6 +408,16 @@ main {
   grid-row: 3;
 }
 
+.grid-item7 {
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.grid-item8 {
+  grid-column: 2;
+  grid-row: 4;
+}
+
 .grid-wide {
   grid-column-start: 1 !important;
   grid-column-end: 3 !important;
