@@ -481,4 +481,14 @@ main {
     grid-column: 1;
     grid-row: 6;
   }
+
+  .grid-item7 {
+    grid-column: 1;
+    grid-row: 7;
+  }
+
+  .grid-item8 {
+    grid-column: 1;
+    grid-row: 8;
+  }
 }
